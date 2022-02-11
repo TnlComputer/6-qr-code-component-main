@@ -80,3 +80,19 @@ section {
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
+
+@media screen and (min-width: 376px) {
+
+  body {
+    width: (max-content=var(--Desktop));
+    margin-left: auto;
+    margin-right: auto;
+    /* padding-top: 10%; */
+  }
+
+  section {
+    margin-top: 180px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
