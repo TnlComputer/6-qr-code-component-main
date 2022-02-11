@@ -35,7 +35,7 @@ img {
 
 section {
   position: relative;
-  margin-top: 50%;
+  margin-top: 150px;
 }
 
 .card {
@@ -91,7 +91,7 @@ section {
   }
 
   section {
-    margin-top: 180px;
+    /* margin-top: 180px; */
     margin-left: auto;
     margin-right: auto;
   }
