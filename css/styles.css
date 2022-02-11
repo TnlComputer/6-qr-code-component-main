@@ -1,5 +1,3 @@
-@import url("(https://fonts.google.com/specimen/Outfit");
-
 :root {
   --White: hsl(0, 0%, 100%);
   --Light-gray: hsl(212, 45%, 89%);
@@ -12,24 +10,29 @@
 }
 
 body {
+  box-sizing: border-box;
   width: (max-content=var(--Mobile));
   background-color: var(--Light-gray);
   font-size: var(--Font-size-paragraph);
-  font-family: var(--Family);
+  font-family: Outfit, Arial, Helvetica, sans-serif;
 }
 
 
 h1 {
+  width: 80%;
+  margin: 20px auto;
   text-align: center;
+  font-weight: 700;
 }
 
 img {
   max-width: 90%;
-  border-radius: 10px;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  -ms-border-radius: 10px;
-  -o-border-radius: 10px;
+  margin: 10px 10px;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
 }
 
 section {
@@ -43,11 +46,11 @@ section {
   margin-left: auto;
   margin-right: auto;
   background-color: var(--White);
-  border-radius: 7px;
-  -webkit-border-radius: 7px;
-  -moz-border-radius: 7px;
-  -ms-border-radius: 7px;
-  -o-border-radius: 7px;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
 }
 
 .card__img {
@@ -56,12 +59,20 @@ section {
   margin: 10px 10px;
 }
 
+.card__texto {
+  width: 80%;
+  margin: 0 auto;
+  font-weight: 400;
+  font-size: var(--Font-size-paragraph);
+  color: var(--Grayish-blue);
+  text-align: center;
+}
 
 /* Pie de pagina */
 .attribution {
   position: absolute;
   width: 100%;
-  bottom: 0;
+  bottom: 2px;
   font-size: 11px;
   text-align: center;
 }
