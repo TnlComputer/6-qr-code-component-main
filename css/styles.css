@@ -11,11 +11,13 @@
 body {
   box-sizing: border-box;
   width: (max-content=var(--Mobile));
+}
+
+main {
   background-color: var(--Light-gray);
   font-size: var(--Font-size-paragraph);
   font-family: Outfit, Arial, Helvetica, sans-serif;
 }
-
 
 img {
   max-width: 100%;
