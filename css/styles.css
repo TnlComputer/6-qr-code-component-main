@@ -3,7 +3,6 @@
   --Light-gray: hsl(212, 45%, 89%);
   --Grayish-blue: hsl(220, 15%, 55%);
   --Dark-blue: hsl(218, 44%, 22%);
-  --Family: [Outfit];
   --Font-size-paragraph: 15px;
   --Mobile: 375px;
   --Desktop: 1440px;
@@ -26,8 +25,7 @@ h1 {
 }
 
 img {
-  max-width: 90%;
-  margin: 10px 10px;
+  max-width: 100%;
   border-radius: 15px;
   -webkit-border-radius: 15px;
   -moz-border-radius: 15px;
@@ -54,9 +52,11 @@ section {
 }
 
 .card__img {
-  width: 100%;
-  margin-top: 10px;
-  margin: 10px 10px;
+  position: relative;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 15px;
 }
 
 .card__texto {
